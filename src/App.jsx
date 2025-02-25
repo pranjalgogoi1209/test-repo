@@ -25,7 +25,10 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">This is a updated staging branch</p>
+      <p className="read-the-docs">
+        This is a updated staging branch | Owned by{" "}
+        {import.meta.env.VITE_OWNER_NAME}
+      </p>
     </>
   );
 }
