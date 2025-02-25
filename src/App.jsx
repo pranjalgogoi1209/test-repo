@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        This is a updated test branch | Owned by{" "}
+        This is a updated test branch | Owned by | Test brach ++
         {import.meta.env.VITE_PUBLIC_OWNER_NAME}
       </p>
     </>
