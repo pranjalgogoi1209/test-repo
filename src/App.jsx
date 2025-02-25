@@ -27,7 +27,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         This is a updated staging branch | Owned by{" "}
-        {import.meta.env.VITE_OWNER_NAME}
+        {import.meta.env.VITE_PUBLIC_OWNER_NAME}
       </p>
     </>
   );
